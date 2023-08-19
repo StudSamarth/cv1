@@ -4,8 +4,8 @@
             background-color: #DFCCFB;
          }
          hr {
-            width: 90%;
-             border-style: dotted none none;
+            width: 100%;
+             border-style: dashed none none;
              border-width: 9px;
              border-color: #512B81;
              
@@ -15,13 +15,36 @@
             height: 200px;
         }
 
-        h1{
-            color: #FE0000;
-        }
+        
 
         h3{
-            background-color: #279EFF;
-            width: 90px;
-            color:#FE0000 ;
+            background-color: #FDE5EC;
+            width: 15%;
+            color:#0A6EBD ;
+            font-style: italic;
+        }
+        .text{
+            color: #9F0D7F;
+        }
+        #heading{
+            color: #FE0000;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 40px;
+            font-style: italic;
+        }
+        .subheading{
+            color: #0B666A;
+            background-color: #FDE5EC;
+            width: 12%;
+        }
+        .blocks{
+            color: #461959;
+        }
+        #skill{
+            color: #0B666A;
+            width: 5%;
+        }
+        h3:hover{
+            background-color: gold;
         }
     
